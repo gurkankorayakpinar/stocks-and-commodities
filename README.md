@@ -1,6 +1,6 @@
-# Hisse senedi ve emtia grafikleri
+# Hisse senedi grafikleri
 
-Bu projede, Amerika'da işlem gören bazı hisse senetlerinin belirli bir yıla ait performansını görebilmemizi sağlayan Python dosyaları yer almaktadır.
+Bu projede, Amerika'da işlem gören bazı hisse senetlerinin belirli bir yıla ait grafiklerini gösteren Python dosyaları yer almaktadır.
 
 Finansal veriler için "yfinance" modülü kullanılmıştır.
 
