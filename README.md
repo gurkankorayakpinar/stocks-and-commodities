@@ -8,4 +8,4 @@ Veri görselleştirme için "Matplotlib" kullanılmıştır.
 
 Oluşturulan dosyalarda "input" sistemine yer verilmemiş olup, sadece, belirtilen hisse senedine ve yine belirtilen tarih aralığına göre işlem yapılmaktadır.
 
-Argüman olarak, hisse senetlerinin açık isimleri yerine kodları (NFLX, F, XOM, KO vs.) kullanılmalıdır.
+Argüman olarak, hisse senetlerinin açık isimleri yerine, "ticker" olarak da ifade edilen sembolleri (NFLX, F, XOM, KO, BAC, WMT vs.) kullanılmalıdır.
