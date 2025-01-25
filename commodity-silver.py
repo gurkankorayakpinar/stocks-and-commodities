@@ -8,7 +8,7 @@ symbol = 'SI=F'
 end_date = '2025-01-23'
 start_date = '2020-01-23'
 
-# Veriyi Yahoo Finance'ten indir
+# Verileri Yahoo Finance'ten indir
 data = yf.download(symbol, start=start_date, end=end_date)
 
 # Kapanış fiyatlarının grafiği

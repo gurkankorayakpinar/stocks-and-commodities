@@ -10,7 +10,7 @@ data = msft.history(period="1y", start="2024-01-01", end="2024-12-31")
 # NaN verileri atmak ve tekrarlanan satırları kaldırmak için
 data = data.dropna(subset=['Close']).drop_duplicates()
 
-# Verilerin boş olup olmadığını kontrol etmek için
+# Verilerin boş olup olmadığının kontrolü
 if data.empty:
     print("Veri bulunamadı!")
 else:
