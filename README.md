@@ -8,4 +8,4 @@
 
 - Oluşturulan dosyalarda "input" sistemine yer verilmemiş olup; sadece, belirtilen hisse senedi ve belirtilen tarih aralığına göre işlem yapılmaktadır.
 
-- Argüman olarak, şirketlerin isimleri yerine, "ticker" olarak da ifade edilen hisse senedi sembolleri (NFLX, F, XOM, KO, BAC, WMT vs.) kullanılmaktadır.
+- Argüman olarak; şirketlerin isimleri yerine, "ticker" olarak da ifade edilen hisse senedi sembolleri (NFLX, F, XOM, KO, BAC, WMT vs.) kullanılmaktadır.
