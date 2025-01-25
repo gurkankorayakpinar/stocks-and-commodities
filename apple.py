@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Apple hisse verileri
 apple = yf.Ticker("AAPL")
 
-# 2024 yılı boyunca işlem gören günlerin verileri
+# Belirtilen tarih aralığında "işlem gören günler" için veriler
 data = apple.history(period="1y", start="2024-01-01", end="2024-12-31")
 
 # NaN verileri atmak ve tekrarlanan satırları kaldırmak için
