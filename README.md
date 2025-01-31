@@ -2,6 +2,8 @@
 
 - Bu projede, Amerika'da işlem gören bazı hisse senetlerinin grafikleri oluşturulmaktadır.
 
+***
+
 - Hisse senedi verileri için "yfinance" modülü kullanılmıştır.
 
 - Veri görselleştirme için "Matplotlib" kullanılmıştır.

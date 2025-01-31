@@ -1,11 +1,11 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-# Ford hisse verileri
-ford = yf.Ticker("F")
+# IBM hisse verileri
+ibm = yf.Ticker("IBM")
 
 # Belirtilen tarih aralığında "işlem gören günler" için veriler
-data = ford.history(period="1y", start="2023-01-01", end="2023-12-31")
+data = ibm.history(period="1y", start="2023-01-01", end="2023-12-31")
 
 # NaN verileri atmak ve tekrarlanan satırları kaldırmak için
 data = data.dropna(subset=['Close']).drop_duplicates()
@@ -17,7 +17,7 @@ else:
     # Kapanış fiyatlarının grafiği
     plt.figure(figsize=(10, 5))
     plt.plot(data.index, data['Close'], color='blue')
-    plt.title('Ford - F - 2023')
+    plt.title('IBM - IBM - 2023')
     plt.ylabel('Kapanış Fiyatı (USD)')
     plt.xticks(rotation=45)
     plt.grid(True)
